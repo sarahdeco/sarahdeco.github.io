@@ -1,6 +1,4 @@
-# SarahDeco.com © 2023 by Sarah Decossard
-
-**License:** [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+# SarahDeco.com © 2023 by Sarah Anne Decossard
 
 ---
 
