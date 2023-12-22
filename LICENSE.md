@@ -1,4 +1,4 @@
-# SarahDeco.com © 2023 by Sarah Anne Decossard
+# SarahDeco.com © 2023 by Sarah A. Decossard
 
 ## Attribution 4.0 International
 
