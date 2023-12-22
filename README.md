@@ -8,4 +8,4 @@ After weeks of dedicated research and coding, I'm delighted to present the compl
 
 ---
 
-SarahDeco.com © 2023 by Sarah A. Decossard
+SarahDeco.com © 2023-2024 by Sarah A. Decossard
