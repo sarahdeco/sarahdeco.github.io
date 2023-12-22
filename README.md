@@ -6,4 +6,6 @@ In this latest iteration, I transitioned my approach from a traditional artist t
 
 After weeks of dedicated research and coding, I'm delighted to present the completed project. This website is more than a portfolio; it's an extension of myself. I aim for users to understand my personality, work ethic, and capabilities through an engaging digital experience.
 
+---
+
 SarahDeco.com © 2023 by Sarah A. Decossard is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International 
