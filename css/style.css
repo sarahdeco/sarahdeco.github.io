@@ -90,6 +90,17 @@ h3 {
 }
 
 h4 {
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 1;
+  font-family: "Alumni Sans", "Arial", sans-serif;
+  font-weight: 600;
+  max-width: 60ch;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
   font-size: 1.125rem;
   text-align: left;
   line-height: 1;
