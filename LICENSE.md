@@ -1,4 +1,4 @@
-# SarahDeco.com © 2023-2024 by Sarah A. Decossard is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International 
+# SarahDeco.com © 2024 by Sarah A. Decossard is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International 
 
 ## Attribution 4.0 International
 
