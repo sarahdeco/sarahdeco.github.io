@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -5,14 +6,14 @@
     <title>Contact - Sarah Deco</title>
     <meta
       name="description"
-      content="Want to connect with Sarah Deco? Submit the form on this page to get started!"
+      content="Want to connect with Sarah Decossard? Submit the form on this page to get started!"
     />
     <meta
       name="keywords"
       content="Contact Sarah Deco, Contact Sarah Deco Designs, Contact Sarah Decossard"
     />
     <meta name="author" content="Sarah A. Decossard" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <script>
       function toggleNav() {
@@ -29,7 +30,7 @@
   </head>
 
   <body>
-    <header>
+    <header id="header">
       <div class="navbar">
         <h1>Sarah Deco</h1>
 
@@ -42,12 +43,15 @@
               <h5 class="dropbtn">Portfolio</h5>
               <div class="dropdown-content" id="portfolioDropdown">
                 <h5><a href="portfolio/adventura.html">Adventura</a></h5>
+                <h5><a href="portfolio/bp.html">BP</a></h5>
                 <h5>
                   <a href="portfolio/lumiere_du_soleil.html"
-                    >Lumiere Du Soleil</a
+                    >Lumière Du Soleil</a
                   >
                 </h5>
-                <h5><a href="portfolio/pink.html">Pink</a></h5>
+                <h5>
+                  <a href="portfolio/pink.html">Victoria's Secret PINK</a>
+                </h5>
                 <h5><a href="portfolio/raxx_4_wigs.html">Raxx 4 Wigs</a></h5>
                 <h5><a href="portfolio/art.html">Fine Art</a></h5>
                 <h5>
@@ -73,13 +77,95 @@
         </nav>
       </div>
     </header>
+    <section class="bottom-section">
+      <div class="large-div">
+        <h2>Contact</h2>
+        <img
+          src="assets/contact_sarah_deco_portrait.jpeg"
+          alt="An aerial image array of graphic design supplies."
+        />
+      </div>
+
+      <div class="small-div">
+        <form
+          action="https://formsubmit.co/sarahdecossard@gmail.com"
+          method="POST"
+        >
+          <div>
+            <h3>Let's Connect!</h3>
+            <p>
+              I appreciate your interest and look forward to connecting with
+              you! For more information, to schedule a meeting, or to request a
+              copy of my resume, please submit the following contact form.
+            </p>
+            <p>Please allow up to 48 business hours for a response.</p>
+          </div>
+
+          <div>
+            <label for="name">Full Name *</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+
+          <div>
+            <label for="url">Website</label>
+            <input type="url" name="url" id="url" />
+          </div>
+
+          <div>
+            <label for="email">Email Address *</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" />
+          </div>
+
+          <div>
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <p>* Required</p>
+
+          <input
+            type="hidden"
+            name="_next"
+            value="https://sxqsrc.csb.app/thanks.html"
+          />
+
+          <input type="hidden" name="_template" value="table" />
+
+          <input type="hidden" name="_captcha" value="false" />
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
     <footer>
+      <div class="header-return">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="16"
+          viewBox="0 -960 960 960"
+          width="24"
+        >
+          <path
+            d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"
+          />
+        </svg>
+        <p>
+          <small><a href="#header">Back to top</a></small>
+        </p>
+      </div>
       <div>
         <div>
           <h5>Let's Connect!</h5>
           <p>
             For more information, to schedule a meeting, or to request a copy of
-            my resume, please fill out my contact form.
+            my resume, please fill out my
+            <a href="contact.html">contact form</a>.
           </p>
         </div>
         <div>
