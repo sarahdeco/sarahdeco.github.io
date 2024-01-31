@@ -23,6 +23,7 @@ section {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 4rem;
   margin: 0;
   padding: 0;
@@ -43,16 +44,19 @@ section {
 .top-section {
   align-content: flex-start;
   align-items: flex-start;
+  gap: 4rem;
 }
 
 .center-section {
   align-content: center;
   align-items: center;
+  gap: 4rem;
 }
 
 .bottom-section {
   align-content: flex-end;
   align-items: flex-end;
+  gap: 4rem;
 }
 
 .stacked-section {
@@ -72,8 +76,12 @@ section {
   align-self: flex-end;
 }
 
-.stacked-section .left-h2 {
-  align-self: flex-start;
+section hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 83vw;
+  max-width: 68rem;
+  border-top: 1px solid #000000;
 }
 
 div {
@@ -96,6 +104,12 @@ div {
 }
 
 .small-div-mix {
+  box-sizing: border-box;
+  max-width: 20rem;
+  gap: 4rem;
+}
+
+.small-div-mix-reverse {
   box-sizing: border-box;
   max-width: 20rem;
   gap: 4rem;
@@ -161,15 +175,26 @@ div {
   padding: 0;
 }
 
+.reverse-row-div-top {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
 .sub-content-card {
   width: 20rem;
   height: 20rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  padding: 2rem;
+  padding: 2.5rem 2rem;
   margin: 0 auto;
   box-sizing: border-box;
   border-radius: 0.25rem;
@@ -189,7 +214,7 @@ h1 {
 }
 
 h2 {
-  font-size: 12rem;
+  font-size: 8rem;
   text-align: right;
   line-height: 0.85;
   font-family: "Alumni Sans", "Arial", sans-serif;
@@ -204,7 +229,7 @@ h2 {
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: left;
   line-height: 1;
   font-family: "Alumni Sans", "Arial", sans-serif;
@@ -257,84 +282,28 @@ p small {
   padding: 0;
 }
 
-.custom-button {
-  background-color: #000000;
-  color: #ffffff;
-  align-items: center;
-  justify-content: center;
-  width: 8rem;
-  height: 3rem;
-  padding: 0;
-  margin: 0.5rem 0 0 0;
-  border: 0.0625rem solid #000000;
-  border-radius: 0.25rem;
-  transition-duration: 0.25s;
-}
-
-.custom-button:hover,
-.custom-button:active {
-  background-color: #ffffff;
-  color: #000000;
-  text-decoration: underline;
-  box-shadow: inset 0 0 0.625rem rgba(97, 130, 205, 0.5);
-  cursor: pointer;
-}
-
-.custom-button a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.custom-button a:hover,
-.custom-button a:active {
-  color: #000000;
-  text-decoration: underline;
-}
-
-.custom-button-dark {
-  background-color: #ffffff;
-  color: #000000;
-  align-items: center;
-  justify-content: center;
-  width: 8rem;
-  height: 3rem;
-  padding: 0;
-  margin: 0.5rem 0 0 0;
-  border: 0.0625rem solid #ffffff;
-  border-radius: 0.25rem;
-  transition-duration: 0.25s;
-}
-
-.custom-button-dark:hover,
-.custom-button-dark:active {
-  background-color: #6182cd;
-  color: #ffffff;
-  text-decoration: underline;
-  box-shadow: inset 0 0 0.625rem rgba(255, 255, 255, 0.5);
-  cursor: pointer;
-}
-
-.custom-button-dark a {
+.text-link a {
   text-decoration: none;
   color: #000000;
 }
 
-.custom-button-dark a:hover,
-.custom-button-dark a:active {
-  color: #ffffff;
+.text-link a:hover,
+.text-link a:active {
+  color: #6182cd;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 button {
   background-color: #000000;
   color: #ffffff;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   text-align: center;
   font-family: "Alumni Sans", "Arial", sans-serif;
   font-weight: 600;
-  width: 8rem;
+  width: 10rem;
   height: 3rem;
-  margin: 0;
+  margin: 1rem 0 0 0;
   padding: 0 2rem;
   border: 0.0625rem solid #000000;
   border-radius: 0.25rem;
@@ -378,7 +347,7 @@ iframe {
   }
 
   h2 {
-    font-size: 12rem;
+    font-size: 8rem;
   }
 
   header .navbar nav .menu {
@@ -492,6 +461,13 @@ iframe {
     max-width: 44rem;
   }
 
+  .small-div-mix-reverse {
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+    max-width: 20rem;
+    gap: 4rem;
+  }
+
   form {
     align-items: center;
     justify-content: center;
@@ -505,7 +481,7 @@ iframe {
   }
 
   h2 {
-    font-size: 8rem;
+    font-size: 6rem;
   }
 }
 
@@ -622,9 +598,11 @@ iframe {
     align-items: center;
   }
 
-  .portfolio-row {
-    justify-content: center;
-    align-content: center;
+  .small-div-mix-reverse {
+    box-sizing: border-box;
+    flex-direction: column-reverse;
+    max-width: 20rem;
+    gap: 4rem;
   }
 
   form {
@@ -633,7 +611,7 @@ iframe {
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 6rem;
     max-width: 8ch;
     text-align: center;
   }
@@ -771,7 +749,7 @@ footer {
   padding: 4rem 0 20rem 0;
 }
 
-hr {
+footer hr {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   width: 83vw;
